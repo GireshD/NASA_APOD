@@ -6,3 +6,5 @@ This iOS app have basic UI which showing Image, title and explanation.
 
 To run this app you need API_Key.
 You can generate API key from this website https://api.nasa.gov and use that API key in **ApodService** and replace **API_KEY**
+
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-25 at 12 37 44](https://github.com/user-attachments/assets/236efedb-624a-4da5-a1d6-9a78bcf587a5)
