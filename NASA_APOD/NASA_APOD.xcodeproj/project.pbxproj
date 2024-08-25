@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFB4E4B42C79A9550007A77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E4B32C79A9550007A77F /* AppDelegate.swift */; };
+		CFB4E4B62C79A9550007A77F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E4B52C79A9550007A77F /* SceneDelegate.swift */; };
+		CFB4E4B82C79A9550007A77F /* ApodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E4B72C79A9550007A77F /* ApodVC.swift */; };
+		CFB4E4BB2C79A9550007A77F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFB4E4BA2C79A9550007A77F /* Base */; };
+		CFB4E4BD2C79A9570007A77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB4E4BC2C79A9570007A77F /* Assets.xcassets */; };
+		CFB4E4C02C79A9570007A77F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFB4E4BF2C79A9570007A77F /* Base */; };
+		CFB4E4CE2C79AD6D0007A77F /* ApodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E4CD2C79AD6D0007A77F /* ApodModel.swift */; };
+		CFB4E4D12C79AE7D0007A77F /* ApodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E4D02C79AE7D0007A77F /* ApodService.swift */; };
+		CFB4E4D32C79B0DA0007A77F /* ApodVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E4D22C79B0DA0007A77F /* ApodVCViewModel.swift */; };
+		CFB4E4D52C79C25C0007A77F /* ApodVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E4D42C79C25B0007A77F /* ApodVCModel.swift */; };
+		CFB4E4D72C79E63B0007A77F /* ImageLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E4D62C79E63B0007A77F /* ImageLoaderService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFB4E4B02C79A9550007A77F /* NASA_APOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA_APOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB4E4B32C79A9550007A77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFB4E4B52C79A9550007A77F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFB4E4B72C79A9550007A77F /* ApodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodVC.swift; sourceTree = "<group>"; };
+		CFB4E4BA2C79A9550007A77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB4E4BC2C79A9570007A77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB4E4BF2C79A9570007A77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFB4E4C12C79A9570007A77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB4E4CD2C79AD6D0007A77F /* ApodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodModel.swift; sourceTree = "<group>"; };
+		CFB4E4D02C79AE7D0007A77F /* ApodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodService.swift; sourceTree = "<group>"; };
+		CFB4E4D22C79B0DA0007A77F /* ApodVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodVCViewModel.swift; sourceTree = "<group>"; };
+		CFB4E4D42C79C25B0007A77F /* ApodVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodVCModel.swift; sourceTree = "<group>"; };
+		CFB4E4D62C79E63B0007A77F /* ImageLoaderService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoaderService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB4E4AD2C79A9550007A77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFB4E4A72C79A9550007A77F = {
+			isa = PBXGroup;
+			children = (
+				CFB4E4B22C79A9550007A77F /* NASA_APOD */,
+				CFB4E4B12C79A9550007A77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB4E4B12C79A9550007A77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E4B02C79A9550007A77F /* NASA_APOD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB4E4B22C79A9550007A77F /* NASA_APOD */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E4B32C79A9550007A77F /* AppDelegate.swift */,
+				CFB4E4B52C79A9550007A77F /* SceneDelegate.swift */,
+				CFB4E4CF2C79AE510007A77F /* Service */,
+				CFB4E4C72C79ACA30007A77F /* Model */,
+				CFB4E4C92C79ACB40007A77F /* View */,
+				CFB4E4CA2C79ACBA0007A77F /* ViewModel */,
+				CFB4E4C12C79A9570007A77F /* Info.plist */,
+				CFB4E4BC2C79A9570007A77F /* Assets.xcassets */,
+			);
+			path = NASA_APOD;
+			sourceTree = "<group>";
+		};
+		CFB4E4C72C79ACA30007A77F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E4CD2C79AD6D0007A77F /* ApodModel.swift */,
+				CFB4E4D42C79C25B0007A77F /* ApodVCModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFB4E4C92C79ACB40007A77F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E4CB2C79ACD00007A77F /* ViewControllers */,
+				CFB4E4CC2C79ACE00007A77F /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFB4E4CA2C79ACBA0007A77F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E4D22C79B0DA0007A77F /* ApodVCViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CFB4E4CB2C79ACD00007A77F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E4B72C79A9550007A77F /* ApodVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CFB4E4CC2C79ACE00007A77F /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E4B92C79A9550007A77F /* Main.storyboard */,
+				CFB4E4BE2C79A9570007A77F /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		CFB4E4CF2C79AE510007A77F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E4D02C79AE7D0007A77F /* ApodService.swift */,
+				CFB4E4D62C79E63B0007A77F /* ImageLoaderService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB4E4AF2C79A9550007A77F /* NASA_APOD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB4E4C42C79A9570007A77F /* Build configuration list for PBXNativeTarget "NASA_APOD" */;
+			buildPhases = (
+				CFB4E4AC2C79A9550007A77F /* Sources */,
+				CFB4E4AD2C79A9550007A77F /* Frameworks */,
+				CFB4E4AE2C79A9550007A77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NASA_APOD;
+			productName = NASA_APOD;
+			productReference = CFB4E4B02C79A9550007A77F /* NASA_APOD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB4E4A82C79A9550007A77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CFB4E4AF2C79A9550007A77F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CFB4E4AB2C79A9550007A77F /* Build configuration list for PBXProject "NASA_APOD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB4E4A72C79A9550007A77F;
+			productRefGroup = CFB4E4B12C79A9550007A77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB4E4AF2C79A9550007A77F /* NASA_APOD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB4E4AE2C79A9550007A77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB4E4BD2C79A9570007A77F /* Assets.xcassets in Resources */,
+				CFB4E4C02C79A9570007A77F /* Base in Resources */,
+				CFB4E4BB2C79A9550007A77F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB4E4AC2C79A9550007A77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB4E4B82C79A9550007A77F /* ApodVC.swift in Sources */,
+				CFB4E4D52C79C25C0007A77F /* ApodVCModel.swift in Sources */,
+				CFB4E4B42C79A9550007A77F /* AppDelegate.swift in Sources */,
+				CFB4E4D12C79AE7D0007A77F /* ApodService.swift in Sources */,
+				CFB4E4B62C79A9550007A77F /* SceneDelegate.swift in Sources */,
+				CFB4E4D32C79B0DA0007A77F /* ApodVCViewModel.swift in Sources */,
+				CFB4E4D72C79E63B0007A77F /* ImageLoaderService.swift in Sources */,
+				CFB4E4CE2C79AD6D0007A77F /* ApodModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFB4E4B92C79A9550007A77F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB4E4BA2C79A9550007A77F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFB4E4BE2C79A9570007A77F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB4E4BF2C79A9570007A77F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFB4E4C22C79A9570007A77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFB4E4C32C79A9570007A77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFB4E4C52C79A9570007A77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NASA_APOD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "come.NASA-APOD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFB4E4C62C79A9570007A77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NASA_APOD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "come.NASA-APOD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB4E4AB2C79A9550007A77F /* Build configuration list for PBXProject "NASA_APOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB4E4C22C79A9570007A77F /* Debug */,
+				CFB4E4C32C79A9570007A77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB4E4C42C79A9570007A77F /* Build configuration list for PBXNativeTarget "NASA_APOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB4E4C52C79A9570007A77F /* Debug */,
+				CFB4E4C62C79A9570007A77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB4E4A82C79A9550007A77F /* Project object */;
+}
